@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #010c36;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #020f3e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 40px 20px 40px;
+}
+
+.logo {
+  position: relative;
+  top: 5px
+}
+
+.logo img {
+  max-width: 200px;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.search img {
+  max-width: 24px;
+}
+
+.green-text {
+  color: #14FF00;
+}
+
+.red-text {
+  color: #FF0000;
+}
+
+.large-text {
+  font-size: 24px;
+}
+
+.small-text {
+  font-size: 20px;
+}
+
+.crypto-chart {
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 100px;
+}
+
+.crypto-text {
+  margin-bottom: 20px;
+}
+
+.large-text {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.small-text {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.green-text {
+  color: #00cc00;
+}
+
+.red-text {
+  color: #ff0000;
+}
+
+.chart-data {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+
+.chart-data img {
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 5px;
+}
+
+.view-all-btn {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#view-btn {
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  padding: 10px;
+  background: linear-gradient(90deg, #3DD8EE 0%, #0997E8 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.map-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 20px;
+  background: rgba(0, 9, 42, 1);
+  border-radius: 10px;
+}
+
+.map {
+  flex: 1;
+}
+
+.map img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.map-text {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.map-head {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.map-head-small {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+
+.map-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.map-detail img {
+  background-color: #020f3e;
+  padding: 20px;
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 10px;
+}
+
+.map-detail-text-head {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.map-detail-text {
+  font-size: 16px;
+}
+
+.reasons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  gap:50px;
+  margin: 20px;
+}
+
+.reason-text {
+  margin: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.reason-text-head {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.reason-text-details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+
+.reason-detail {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.reason-detail img {
+  max-width: 30px;
+  max-height: 30px;
+  margin-bottom: 10px;
+}
+
+.reason-detail-disc {
+  display: flex;
+  flex-direction: column;
+}
+
+.reason-detail-disc-head {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.reason-detail-disc-p {
+  font-size: 16px;
+}
+
+.reason-images {
+  flex: 1;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/assets/chart.png');
+}
+.reason-images img {
+  width: 365px;
+  height: auto;
+  border-radius: 10px;
+}
+.Details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  background: rgba(0, 9, 42, 1);
+  padding: 60px;
+  border-radius: 10px;
+}
+
+.plat-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.plat-details img {
+  width: 311px;
+  border-radius: 10px;
+}
+
+.plat-text {
+  font-size: 20px;
+}
+
+.plat-links {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.company-link,
+.support,
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.detail-link{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.company-head{
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logo img {
+    max-width: 150px;
+  }
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .nav-links ul {
+    flex-direction: row;
+    gap:20px;
+    text-align: start;
+  }
+  
+  .nav-links a {
+    font-size: xx-small;
+  }
+  .nav-links li {
+    margin: 0;
+  }
+  .search img {
+    max-width: 10px;
+  }
+
+  .crypto-chart {
+    padding: 20px;
+    font-size: xx-small;
+    margin: 0;
+    word-break: break-all;
+    padding: 0;
+  }
+  #view-btn {
+    font-size: x-small;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+
+  .map-details {
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+  }
+  .map-head {
+    font-size: x-small;
+  }
+  
+  .map-head-small {
+    font-size: xx-small;
+  }
+  .map-detail-text-head {
+    font-size: x-small;
+  }
+  
+  .map-detail-text {
+    font-size: xx-small;
+  }
+
+  .reasons {
+    flex-direction: column;
+  }
+
+  .reason-text {
+    margin: 20px;
+  }
+  .reason-text-head{
+    font-size: small;
+
+  }
+  .reason-detail-disc-head{
+    font-size: x-small;
+  }
+  .reason-detail-disc-p{
+    font-size: xx-small;
+  }
+
+  .reason-images {
+    width: 20px;
+  }
+  .reason-detail img {
+    max-width: 20px;
+    max-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .Details {
+    flex-direction: column;
+  }
+
+  .plat-details img {
+    width: 80%;
+  }
+
+  .plat-links {
+    flex-direction: column;
+  }
+  .plat-text{
+    font-size: x-small;
+  }
+.company-head{
+  font-size: small;
+}
+.detail-link a{
+  font-size: x-small;
+}
+  .footer img {
+    max-width: 50px;
+  }
+}
