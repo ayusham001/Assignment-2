@@ -4,12 +4,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #010c36;
+  background-color: #041334;
   color: #fff;
 }
 
 .navbar {
-  background-color: #020f3e;
+  background-color: #091838;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -77,6 +77,15 @@ body {
   margin-bottom: 20px;
 }
 
+.crypto-name{
+  display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.crypto-type{
+color:rgba(133, 133, 133, 1);
+}
+
 .large-text {
   font-size: 1.5em;
   margin-bottom: 10px;
@@ -84,7 +93,6 @@ body {
 
 .small-text {
   font-size: 1.2em;
-  color: #666;
 }
 
 .green-text {
@@ -126,6 +134,7 @@ td {
   width: 200px;
   height: 60px;
   font-size: 24px;
+  font-weight: 500;
   padding: 10px;
   background: linear-gradient(90deg, #3DD8EE 0%, #0997E8 100%);
   color: white;
@@ -141,7 +150,7 @@ td {
   justify-content: space-between;
   align-items: stretch;
   padding: 20px;
-  background: rgba(0, 9, 42, 1);
+  background: #00092a;
   border-radius: 10px;
 }
 
@@ -159,6 +168,7 @@ td {
 .map-text {
   flex: 1;
   padding-left: 20px;
+  width: 50%;
 }
 
 .map-head {
@@ -181,7 +191,7 @@ td {
 }
 
 .map-detail img {
-  background-color: #020f3e;
+  background-color: #091838;
   padding: 20px;
   max-width: 30px;
   max-height: 30px;
@@ -271,7 +281,7 @@ td {
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
-  background: rgba(0, 9, 42, 1);
+  background: #00092a;
   padding: 60px;
   border-radius: 10px;
 }
