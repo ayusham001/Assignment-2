@@ -77,13 +77,14 @@ body {
   margin-bottom: 20px;
 }
 
-.crypto-name{
+.crypto-name {
   display: flex;
-    align-items: center;
-    gap: 15px;
+  align-items: center;
+  gap: 15px;
 }
-.crypto-type{
-color:rgba(133, 133, 133, 1);
+
+.crypto-type {
+  color: rgba(133, 133, 133, 1);
 }
 
 .large-text {
@@ -168,7 +169,6 @@ td {
 .map-text {
   flex: 1;
   padding-left: 20px;
-  width: 50%;
 }
 
 .map-head {
@@ -213,7 +213,7 @@ td {
   align-items: center;
   padding: 20px;
   border-radius: 10px;
-  gap:50px;
+  gap: 50px;
   margin: 20px;
 }
 
@@ -271,11 +271,13 @@ td {
   align-items: center;
   background-image: url('/assets/chart.png');
 }
+
 .reason-images img {
   width: 365px;
   height: auto;
   border-radius: 10px;
 }
+
 .Details {
   display: flex;
   flex-direction: row;
@@ -317,21 +319,24 @@ td {
   flex-direction: column;
   gap: 20px;
 }
-.detail-link{
+
+.detail-link {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.company-head{
+
+.company-head {
   font-size: 24px;
 }
+
 a {
   text-decoration: none;
   color: #fff;
   font-size: 16px;
 }
 
-.footer{
+.footer {
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -342,25 +347,29 @@ a {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .logo img {
     max-width: 150px;
   }
+
   .nav-links {
     margin-top: 10px;
   }
 
   .nav-links ul {
     flex-direction: row;
-    gap:20px;
+    gap: 20px;
     text-align: start;
   }
-  
+
   .nav-links a {
     font-size: xx-small;
   }
+
   .nav-links li {
     margin: 0;
   }
+
   .search img {
     max-width: 10px;
   }
@@ -372,29 +381,41 @@ a {
     word-break: break-all;
     padding: 0;
   }
+
+  .crypto-text,
+  .chart-data{
+    padding: 0 20px 0px 20px;
+  }
+  .table-head{
+    text-align:center;
+  }
+
   #view-btn {
     font-size: x-small;
     width: fit-content;
     height: fit-content;
   }
-  
+
 
   .map-details {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     font-size: xx-large;
   }
+
   .map-head {
     font-size: x-small;
   }
-  
+
   .map-head-small {
     font-size: xx-small;
   }
+
   .map-detail-text-head {
     font-size: x-small;
   }
-  
+
   .map-detail-text {
     font-size: xx-small;
   }
@@ -406,20 +427,24 @@ a {
   .reason-text {
     margin: 20px;
   }
-  .reason-text-head{
+
+  .reason-text-head {
     font-size: small;
 
   }
-  .reason-detail-disc-head{
+
+  .reason-detail-disc-head {
     font-size: x-small;
   }
-  .reason-detail-disc-p{
+
+  .reason-detail-disc-p {
     font-size: xx-small;
   }
 
   .reason-images {
     width: 20px;
   }
+
   .reason-detail img {
     max-width: 20px;
     max-height: 20px;
@@ -435,17 +460,21 @@ a {
   }
 
   .plat-links {
-    flex-direction: column;
+    flex-direction: row;
   }
-  .plat-text{
+
+  .plat-text {
     font-size: x-small;
   }
-.company-head{
-  font-size: small;
-}
-.detail-link a{
-  font-size: x-small;
-}
+
+  .company-head {
+    font-size: small;
+  }
+
+  .detail-link a {
+    font-size: x-small;
+  }
+
   .footer img {
     max-width: 150px;
   }
